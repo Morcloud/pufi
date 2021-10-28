@@ -1,0 +1,32 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &--title {
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 2vmin;
+        letter-spacing: 1px;
+        color: #777;
+    }
+    &--subtitle {
+        margin: 0.5rem;
+        text-transform: uppercase;
+        font-size: 5vmin;
+        font-weight: 300;
+    }
+    &--text {
+        margin: 0;
+        font-size: 2.5vmin;
+    }
+    &__form {
+        margin-block-start: 1.5rem;
+        inline-size: 50%;
+        text-align: center;
+        &--input {
+            padding: 1rem;
+            inline-size: 40rem;
+        }
+    }
+}

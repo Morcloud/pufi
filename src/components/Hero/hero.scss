@@ -1,0 +1,44 @@
+.hero {
+    block-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__title {
+        margin-block-start: 0;
+        text-align: center;
+        align-self: center;
+        color: white;
+        text-transform: uppercase;
+        font-size: 3vmax;
+        font-weight: 300;
+    }
+    &__button {
+        padding-inline: 3rem;
+        padding-block: 1rem;
+        align-self: center;
+        display: inline-block;
+        max-inline-size: 9rem;
+        background: transparent;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        border: 2px solid #fff;
+    }
+    &__slides {
+        align-self: center;
+        margin-block-end: 1.5rem;
+        display: flex;
+        gap: 0.5rem;
+        &--element {
+            inline-size: 0.8rem;
+            block-size: 0.8rem;
+            background-color: #fff;
+            border-radius: 50%;
+            // box-shadow: 2px 2px 0 red;
+        }
+    }
+}
