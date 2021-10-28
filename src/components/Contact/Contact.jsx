@@ -22,9 +22,7 @@ export const Contact = ({ valid }) => {
             <p className='contact--text'>Y enterate de todas las novedades</p>
             <div className='contact__form'>
                 <input
-                    className={`contact__form--input is-valid ${
-                        valid && "is-valid"
-                    }`}
+                    className={`contact__form--input ${valid && "is-valid"}`}
                     name='email'
                     type='text'
                     placeholder='Ingresa tu email'
