@@ -1,10 +1,12 @@
 .footer {
     margin-block-start: 3rem;
-    padding: 2rem;
+    padding: 2vw;
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
     box-shadow: inset 0 1px 6px #777;
     &__logo {
+        min-inline-size: 2rem;
         inline-size: 4rem;
         & img {
             inline-size: 100%;
@@ -14,8 +16,10 @@
         display: flex;
     }
     &__list {
+        padding: 0;
         margin: 0;
         list-style: none;
+        position: relative;
         &--item {
             margin-block: 0.5rem;
         }
@@ -25,13 +29,33 @@
             text-transform: uppercase;
             font-size: 1.5vmin;
         }
+        &:nth-of-type(2)::after {
+            content: "";
+            background: rgb(235, 235, 235);
+            position: absolute;
+            bottom: 0;
+            left: -50%;
+            block-size: 75%;
+            inline-size: 1px;
+        }
     }
     &__guarantee {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        position: relative;
         &--title {
             text-transform: uppercase;
             font-size: 1.5vmin;
+        }
+        &::after {
+            content: "";
+            background: rgb(235, 235, 235);
+            position: absolute;
+            bottom: 0;
+            left: -50%;
+            block-size: 75%;
+            inline-size: 1px;
         }
     }
     &__tags {
@@ -52,11 +76,29 @@
         }
     }
     &__social {
+        margin-inline-end: 2rem;
         display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
         gap: 0.5rem;
+        position: relative;
         &--text {
             text-transform: uppercase;
             font-size: 1.5vmin;
         }
+        &::after {
+            content: "";
+            background: rgb(235, 235, 235);
+            position: absolute;
+            bottom: 0;
+            left: -50%;
+            block-size: 75%;
+            inline-size: 1px;
+        }
     }
+}
+
+.fab {
+    font-size: 2vmin;
+    cursor: pointer;
 }

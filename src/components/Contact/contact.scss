@@ -34,7 +34,7 @@
 }
 
 .is-valid {
-    border: 2px solid green;
+    border: 2px solid rgb(21, 138, 21);
     &::after {
         display: block;
         content: "Email válido :D";
@@ -54,7 +54,7 @@
     right: 2.5%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    transition: 300ms all;
+    transition: 400ms all;
     &:hover {
         transform: translate(5px, -10px);
     }

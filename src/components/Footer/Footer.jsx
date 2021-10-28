@@ -56,9 +56,15 @@ export const Footer = () => {
             {/* </div> */}
             <div className='footer__social'>
                 <p className='footer__social--text'>seguinos en</p>
-                <i className='fab fa-facebook-f icon'></i>
-                <i className='fab fa-twitter'></i>
-                <i className='fab fa-instagram'></i>
+                <p className='footer__social--text'>
+                    <i className='fab fa-facebook-f'></i>
+                </p>
+                <p className='footer__social--text'>
+                    <i className='fab fa-twitter'></i>
+                </p>
+                <p className='footer__social--text'>
+                    <i className='fab fa-instagram'></i>
+                </p>
             </div>
         </footer>
     );

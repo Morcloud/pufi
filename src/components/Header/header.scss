@@ -3,8 +3,12 @@
     justify-content: space-between;
     &__logo {
         margin: 0;
+        margin-inline-start: 1rem;
+        min-inline-size: 3rem;
+        min-block-size: 3rem;
         inline-size: 7rem;
         block-size: 7rem;
+        cursor: pointer;
         img {
             width: 100%;
         }
@@ -20,6 +24,17 @@
         position: relative;
         p {
             padding: 1rem;
+            position: relative;
+            cursor: pointer;
+            &:nth-of-type(2)::after {
+                content: "";
+                background: white;
+                position: absolute;
+                bottom: 10;
+                left: 0;
+                block-size: 50%;
+                inline-size: 1px;
+            }
         }
     }
 }
@@ -44,19 +59,25 @@
             font-size: 2.5vmin;
             text-decoration: none;
             text-transform: uppercase;
-            &:after {
-                content: "";
-                background: white;
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                block-size: 90%;
-                inline-size: 1px;
-            }
+        }
+        &:nth-of-type(2)::after,
+        &:nth-of-type(3)::after,
+        &:nth-of-type(4)::after {
+            content: "";
+            background: white;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            block-size: 75%;
+            inline-size: 1px;
         }
     }
 }
 
 .fas {
     margin-inline-start: 0.5rem;
+    transition: 300ms all;
+    &:hover {
+        transform: translateY(5px);
+    }
 }

@@ -28,6 +28,11 @@
         text-transform: uppercase;
         letter-spacing: 4px;
         border: 2px solid #fff;
+        cursor: pointer;
+        transition: 300ms all;
+        &:active {
+            transform: scale(0.95);
+        }
     }
     &__slides {
         align-self: center;

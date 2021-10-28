@@ -15,9 +15,7 @@ export const Contact = ({ valid }) => {
     };
     return (
         <section className='contact'>
-            <p className='contact--title'>
-                newsletter {JSON.stringify(valid, null, 3)}
-            </p>
+            <p className='contact--title'>newsletter</p>
             <h2 className='contact--subtitle'>suscribite</h2>
             <p className='contact--text'>Y enterate de todas las novedades</p>
             <div className='contact__form'>
