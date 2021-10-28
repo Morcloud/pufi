@@ -1,18 +1,18 @@
 import { Hero } from "./components/Hero/Hero";
-import { ProductList } from "./components/Product/ProductList";
+import { ConnectedProductList } from "./components/Product/ProductList";
 import { Social } from "./components/Social/Social";
-import { Contact } from "./components/Contact/Contact";
+import { ConnectedContact } from "./components/Contact/Contact";
+import { Footer } from "./components/Footer/Footer";
 
 import "./app.scss";
-import { Footer } from "./components/Footer/Footer";
 
 function App() {
     return (
         <>
             <Hero />
-            <ProductList />
+            <ConnectedProductList />
             <Social />
-            <Contact />
+            <ConnectedContact />
             <Footer />
         </>
     );

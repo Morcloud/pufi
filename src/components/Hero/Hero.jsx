@@ -6,10 +6,7 @@ import "./hero.scss";
 export const Hero = () => {
     return (
         <>
-            <section
-                className='hero'
-                style={{ backgroundImage: `url(/hero.jpg)` }}
-            >
+            <section className='hero'>
                 <Header />
                 <h1 className='hero__title'>
                     estár cómodo,

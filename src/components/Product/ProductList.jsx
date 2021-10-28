@@ -1,84 +1,23 @@
+import { connect } from "react-redux";
+import { Product } from "./Product";
 import "./product.scss";
 
-export const ProductList = () => {
+const mapStateToProps = (state) => {
+    return {
+        product: state.product,
+    };
+};
+
+export const ProductList = ({ product }) => {
+    console.log(product);
+
     return (
         <section className='product-list'>
-            <article className='product'>
-                <div
-                    className='product__cover'
-                    style={{ backgroundImage: `url(/test.jpg)` }}
-                >
-                    <div className='product__cover--button'>shop</div>
-                </div>
-                <div className='product__details'>
-                    <img className='product__details--image' src='' />
-                    <p className='product__details--title'>Pufi RAIN</p>
-                    <div className='product__details--divider'></div>
-                    <p className='product__details--description'>
-                        Descripción del producto. Este es un texto simulado
-                    </p>
-                    <p className='product__details--see-more'>
-                        <i></i>ver más
-                    </p>
-                </div>
-            </article>
-            <article className='product'>
-                <div
-                    className='product__cover'
-                    style={{ backgroundImage: `url(/test.jpg)` }}
-                >
-                    <div className='product__cover--button'>shop</div>
-                </div>
-                <div className='product__details'>
-                    <img className='product__details--image' src='' />
-                    <p className='product__details--title'>Pufi RAIN</p>
-                    <div className='product__details--divider'></div>
-                    <p className='product__details--description'>
-                        Descripción del producto. Este es un texto simulado
-                    </p>
-                    <p className='product__details--see-more'>
-                        <i></i>ver más
-                    </p>
-                </div>
-            </article>
-            <article className='product'>
-                <div
-                    className='product__cover'
-                    style={{ backgroundImage: `url(/test.jpg)` }}
-                >
-                    <div className='product__cover--button'>shop</div>
-                </div>
-                <div className='product__details'>
-                    <img className='product__details--image' src='' />
-                    <p className='product__details--title'>Pufi RAIN</p>
-                    <div className='product__details--divider'></div>
-                    <p className='product__details--description'>
-                        Descripción del producto. Este es un texto simulado
-                    </p>
-                    <p className='product__details--see-more'>
-                        <i></i>ver más
-                    </p>
-                </div>
-            </article>
-            <article className='product'>
-                <div
-                    className='product__cover'
-                    style={{ backgroundImage: `url(/test.jpg)` }}
-                >
-                    <div className='product__cover--button'>shop</div>
-                </div>
-                <div className='product__details'>
-                    <img className='product__details--image' src='' />
-                    <p className='product__details--title'>Pufi RAIN</p>
-                    <div className='product__details--divider'></div>
-                    <p className='product__details--description'>
-                        Descripción del producto. Este es un texto simulado
-                    </p>
-                    <p className='product__details--see-more'>
-                        <i></i>ver más
-                    </p>
-                </div>
-            </article>
+            {product.map((item) => (
+                <Product key={item.title} {...item} />
+            ))}
         </section>
     );
 };
+
+export const ConnectedProductList = connect(mapStateToProps)(ProductList);

@@ -13,21 +13,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
+        color: #fff;
         text-transform: uppercase;
-        font-size: 0.5rem;
+        font-size: 1.5vmin;
+        letter-spacing: 1px;
         position: relative;
         p {
             padding: 1rem;
-            &:after {
-                content: "";
-                background: red;
-                position: absolute;
-                bottom: 0;
-                right: 0;
-                block-size: 100%;
-                inline-size: 1px;
-            }
         }
     }
 }
@@ -63,4 +55,8 @@
             }
         }
     }
+}
+
+.fas {
+    margin-inline-start: 0.5rem;
 }

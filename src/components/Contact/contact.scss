@@ -24,9 +24,38 @@
         margin-block-start: 1.5rem;
         inline-size: 50%;
         text-align: center;
+        position: relative;
         &--input {
             padding: 1rem;
+            max-inline-size: 100%;
             inline-size: 40rem;
         }
+    }
+}
+
+.is-valid {
+    border: 2px solid green;
+    &::after {
+        display: block;
+        content: "Email válido :D";
+        color: red;
+        font-size: 2em;
+        border: 1px solid red;
+        position: absolute;
+        z-index: 2;
+    }
+}
+
+.arrow {
+    display: block;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    right: 2.5%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    transition: 300ms all;
+    &:hover {
+        transform: translate(5px, -10px);
     }
 }

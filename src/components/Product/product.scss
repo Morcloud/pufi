@@ -45,6 +45,14 @@
             font-weight: bold;
             font-size: 2.5vmax;
         }
+        &--divider {
+            border-top: 1px solid black;
+            block-size: 2px;
+            inline-size: 100%;
+            max-inline-size: 50px;
+            padding: 0;
+            margin: 0 auto;
+        }
         &--description {
             color: #777;
         }
@@ -52,6 +60,9 @@
             color: #777;
             letter-spacing: 0.3em;
             text-transform: uppercase;
+        }
+        &--fail {
+            font-size: 1.5rem;
         }
     }
     &:nth-child(even) &__cover {

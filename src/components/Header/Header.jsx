@@ -12,7 +12,7 @@ export const Header = () => {
             <nav className='header__nav'>
                 <ul className='nav__list'>
                     <li className='nav__list-item'>
-                        <img src={iconPuff} />
+                        <img src={iconPuff} alt='' />
                         <a href='/'>pufi puff</a>
                     </li>
                     <li className='nav__list-item'>
@@ -30,7 +30,9 @@ export const Header = () => {
                 </ul>
             </nav>
             <div className='header__menu'>
-                <p>mi cuenta</p>
+                <p>
+                    mi cuenta <i className='fas fa-angle-down'></i>{" "}
+                </p>
                 <p>mi compra</p>
             </div>
         </header>
