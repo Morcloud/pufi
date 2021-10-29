@@ -3,24 +3,28 @@ const initialState = [
         image: "",
         title: "Pufi RAIN",
         description: "Descripción del producto. Este es un texto simulado",
+        moreInfo: "ver más",
         buttonToggle: true,
     },
     {
         image: "",
         title: "Pufi PUFF",
         description: "Descripción del producto. Este es un texto simulado",
+        moreInfo: "ver más",
         buttonToggle: false,
     },
     {
         image: "",
         title: "Pufi CART",
         description: "Descripción del producto. Este es un texto simulado",
+        moreInfo: "ver más",
         buttonToggle: false,
     },
     {
         image: "",
         title: "Pufi NAP",
         description: "Descripción del producto. Este es un texto simulado",
+        moreInfo: "más info",
         buttonToggle: false,
     },
 ];

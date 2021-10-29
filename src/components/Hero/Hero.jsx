@@ -14,9 +14,9 @@ export const Hero = () => {
                 </h1>
                 <button className='hero__button'>shop</button>
                 <div className='hero__slides'>
-                    <div className='hero__slides--element'></div>
-                    <div className='hero__slides--element'></div>
-                    <div className='hero__slides--element'></div>
+                    <input type='radio' className='hero__slides--element' />
+                    <input type='radio' className='hero__slides--element' />
+                    <input type='radio' className='hero__slides--element' />
                 </div>
             </section>
         </>

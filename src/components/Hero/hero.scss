@@ -40,11 +40,33 @@
         display: flex;
         gap: 0.5rem;
         &--element {
-            inline-size: 0.8rem;
-            block-size: 0.8rem;
+            margin: 0;
+            appearance: none;
             background-color: #fff;
+            font: inherit;
+            block-size: 0.8em;
+            inline-size: 0.8em;
+            border: 0.15em solid #fff;
             border-radius: 50%;
-            // box-shadow: 2px 2px 0 red;
+            transform: translateY(-0.075em);
+            display: grid;
+            place-content: center;
+            &::before {
+                content: "";
+                inline-size: 0.65em;
+                block-size: 0.65em;
+                border-radius: 50%;
+                transform: scale(0);
+                transition: 120ms transform ease-in-out;
+                box-shadow: inset 1em 1em #fff;
+                &:checked {
+                    transform: scale(1);
+                }
+            }
+            &:focus {
+                outline: max(2px, 0.15em) solid #fff;
+                outline-offset: max(2px, 0.15em);
+            }
         }
     }
 }

@@ -23,14 +23,33 @@
     &__form {
         margin-block-start: 1.5rem;
         inline-size: 50%;
+        max-inline-size: 42.6rem;
         text-align: center;
         position: relative;
         &--input {
             padding: 1rem;
             max-inline-size: 100%;
-            inline-size: 40rem;
+            inline-size: 40.5rem;
+            border: 1px solid #ccc;
+            position: relative;
+            background: transparent;
+            &:focus ~ .focus-bg {
+                inline-size: 100%;
+                transition: 300ms;
+            }
         }
     }
+}
+
+.focus-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #ededed;
+    transition: 0.3s;
+    z-index: -1;
 }
 
 .is-valid {

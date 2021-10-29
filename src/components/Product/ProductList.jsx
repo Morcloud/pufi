@@ -1,5 +1,14 @@
 import { connect } from "react-redux";
 import { Product } from "./Product";
+import pRain from "../../images/p-rain.png";
+import pPuff from "../../images/p-puff.png";
+import pCart from "../../images/p-cart.png";
+import pNap from "../../images/p-nap.png";
+import pRainCover from "../../images/p-rain-cover.jpg";
+import pPuffCover from "../../images/p-puff-cover.jpg";
+import pCartCover from "../../images/p-cart-cover.jpeg";
+import pNapCover from "../../images/p-nap-cover.jpg";
+
 // import { useFetch } from "../../hooks/useFetch";
 import "./product.scss";
 
@@ -8,6 +17,10 @@ const mapStateToProps = (state) => {
         product: state.product,
     };
 };
+
+const productImages = [pRain, pPuff, pCart, pNap];
+
+const producImagesCover = [pRainCover, pPuffCover, pCartCover, pNapCover];
 
 export const ProductList = ({ product }) => {
     // Endpoint y Access Token para consumir la API de Instagram (dura 1 hora)
@@ -20,8 +33,16 @@ export const ProductList = ({ product }) => {
 
     return (
         <section className='product-list'>
-            {product.map((item) => (
-                <Product key={item.title} {...item} />
+            {product.map((item, i) => (
+                <Product
+                    key={item.title}
+                    cover={producImagesCover[i]}
+                    imageProduct={productImages[i]}
+                    title={item.title}
+                    description={item.description}
+                    buttonToggle={item.buttonToggle}
+                    moreInfo={item.moreInfo}
+                />
             ))}
         </section>
     );

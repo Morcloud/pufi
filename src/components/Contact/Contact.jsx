@@ -27,6 +27,7 @@ export const Contact = ({ valid }) => {
                     autoComplete='off'
                     onChange={handleInputChange}
                 />
+                <span className='focus-bg'></span>
                 <i className='fas fa-arrow-right arrow'></i>
             </div>
         </section>

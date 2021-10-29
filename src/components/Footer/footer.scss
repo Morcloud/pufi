@@ -2,10 +2,13 @@
     margin-block-start: 3rem;
     padding: 2vw;
     display: flex;
+    gap: 0.5rem;
     justify-content: space-between;
     box-sizing: border-box;
     box-shadow: inset 0 1px 6px #777;
     &__logo {
+        margin-inline-start: 1.2em;
+        margin-inline-end: 0.5rem;
         min-inline-size: 2rem;
         inline-size: 4rem;
         & img {
@@ -16,12 +19,14 @@
         display: flex;
     }
     &__list {
+        min-inline-size: 2rem;
         padding: 0;
         margin: 0;
         list-style: none;
         position: relative;
         &--item {
-            margin-block: 0.5rem;
+            margin-block-end: 0.5rem;
+            line-height: 1;
         }
         & a {
             color: #000;
@@ -40,10 +45,12 @@
         }
     }
     &__guarantee {
+        max-inline-size: 8em;
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
+        box-sizing: border-box;
         &--title {
             text-transform: uppercase;
             font-size: 1.5vmin;
@@ -61,8 +68,11 @@
     &__tags {
         max-inline-size: 11rem;
         display: flex;
+        align-items: center;
+        flex-wrap: wrap;
         gap: 5px;
         &--image {
+            max-inline-size: 1rem;
             margin: 0;
             inline-size: 3rem;
             & img {
@@ -78,6 +88,7 @@
     &__social {
         margin-inline-end: 2rem;
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: flex-start;
         gap: 0.5rem;
