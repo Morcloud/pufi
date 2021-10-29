@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/pufi/static/css/main.718472d9.chunk.css",
-    "main.js": "/pufi/static/js/main.48e74272.chunk.js",
-    "main.js.map": "/pufi/static/js/main.48e74272.chunk.js.map",
+    "main.css": "/pufi/static/css/main.862cf95c.chunk.css",
+    "main.js": "/pufi/static/js/main.7d8d2173.chunk.js",
+    "main.js.map": "/pufi/static/js/main.7d8d2173.chunk.js.map",
     "runtime-main.js": "/pufi/static/js/runtime-main.8cff59e2.js",
     "runtime-main.js.map": "/pufi/static/js/runtime-main.8cff59e2.js.map",
-    "static/js/2.a96dfa32.chunk.js": "/pufi/static/js/2.a96dfa32.chunk.js",
-    "static/js/2.a96dfa32.chunk.js.map": "/pufi/static/js/2.a96dfa32.chunk.js.map",
+    "static/js/2.d1a35bae.chunk.js": "/pufi/static/js/2.d1a35bae.chunk.js",
+    "static/js/2.d1a35bae.chunk.js.map": "/pufi/static/js/2.d1a35bae.chunk.js.map",
     "index.html": "/pufi/index.html",
-    "static/css/main.718472d9.chunk.css.map": "/pufi/static/css/main.718472d9.chunk.css.map",
-    "static/js/2.a96dfa32.chunk.js.LICENSE.txt": "/pufi/static/js/2.a96dfa32.chunk.js.LICENSE.txt",
+    "static/css/main.862cf95c.chunk.css.map": "/pufi/static/css/main.862cf95c.chunk.css.map",
+    "static/js/2.d1a35bae.chunk.js.LICENSE.txt": "/pufi/static/js/2.d1a35bae.chunk.js.LICENSE.txt",
     "static/media/Holidays.21f6f6a3.jpg": "/pufi/static/media/Holidays.21f6f6a3.jpg",
     "static/media/cart.e5e61327.png": "/pufi/static/media/cart.e5e61327.png",
     "static/media/nap.fa74e115.png": "/pufi/static/media/nap.fa74e115.png",
+    "static/media/p-cart-cover.15c8dfb4.jpeg": "/pufi/static/media/p-cart-cover.15c8dfb4.jpeg",
+    "static/media/p-cart.98b93122.png": "/pufi/static/media/p-cart.98b93122.png",
+    "static/media/p-nap-cover.3875b1a5.jpg": "/pufi/static/media/p-nap-cover.3875b1a5.jpg",
+    "static/media/p-nap.41f7f76c.png": "/pufi/static/media/p-nap.41f7f76c.png",
+    "static/media/p-puff-cover.cf96bbf3.jpg": "/pufi/static/media/p-puff-cover.cf96bbf3.jpg",
+    "static/media/p-puff.5bea480c.png": "/pufi/static/media/p-puff.5bea480c.png",
+    "static/media/p-rain-cover.ab3c0d0c.jpg": "/pufi/static/media/p-rain-cover.ab3c0d0c.jpg",
+    "static/media/p-rain.a2758d26.png": "/pufi/static/media/p-rain.a2758d26.png",
     "static/media/pufi-footer.a9d87cbf.png": "/pufi/static/media/pufi-footer.a9d87cbf.png",
     "static/media/pufi-puff.fe4dacc7.png": "/pufi/static/media/pufi-puff.fe4dacc7.png",
     "static/media/pufi.eca7ad43.png": "/pufi/static/media/pufi.eca7ad43.png",
@@ -21,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8cff59e2.js",
-    "static/js/2.a96dfa32.chunk.js",
-    "static/css/main.718472d9.chunk.css",
-    "static/js/main.48e74272.chunk.js"
+    "static/js/2.d1a35bae.chunk.js",
+    "static/css/main.862cf95c.chunk.css",
+    "static/js/main.7d8d2173.chunk.js"
   ]
 }
