@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pufi/static/css/main.b86c9453.chunk.css",
+    "main.css": "/pufi/static/css/main.45dc02dc.chunk.css",
     "main.js": "/pufi/static/js/main.e5ed8562.chunk.js",
     "main.js.map": "/pufi/static/js/main.e5ed8562.chunk.js.map",
     "runtime-main.js": "/pufi/static/js/runtime-main.8cff59e2.js",
@@ -8,7 +8,7 @@
     "static/js/2.d1a35bae.chunk.js": "/pufi/static/js/2.d1a35bae.chunk.js",
     "static/js/2.d1a35bae.chunk.js.map": "/pufi/static/js/2.d1a35bae.chunk.js.map",
     "index.html": "/pufi/index.html",
-    "static/css/main.b86c9453.chunk.css.map": "/pufi/static/css/main.b86c9453.chunk.css.map",
+    "static/css/main.45dc02dc.chunk.css.map": "/pufi/static/css/main.45dc02dc.chunk.css.map",
     "static/js/2.d1a35bae.chunk.js.LICENSE.txt": "/pufi/static/js/2.d1a35bae.chunk.js.LICENSE.txt",
     "static/media/Holidays.21f6f6a3.jpg": "/pufi/static/media/Holidays.21f6f6a3.jpg",
     "static/media/cart.e5e61327.png": "/pufi/static/media/cart.e5e61327.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.8cff59e2.js",
     "static/js/2.d1a35bae.chunk.js",
-    "static/css/main.b86c9453.chunk.css",
+    "static/css/main.45dc02dc.chunk.css",
     "static/js/main.e5ed8562.chunk.js"
   ]
 }
