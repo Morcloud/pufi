@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pufi/static/css/main.15a9cc2e.chunk.css",
-    "main.js": "/pufi/static/js/main.0c30c7c3.chunk.js",
-    "main.js.map": "/pufi/static/js/main.0c30c7c3.chunk.js.map",
+    "main.css": "/pufi/static/css/main.e5c32158.chunk.css",
+    "main.js": "/pufi/static/js/main.88fd5165.chunk.js",
+    "main.js.map": "/pufi/static/js/main.88fd5165.chunk.js.map",
     "runtime-main.js": "/pufi/static/js/runtime-main.8cff59e2.js",
     "runtime-main.js.map": "/pufi/static/js/runtime-main.8cff59e2.js.map",
     "static/js/2.d1a35bae.chunk.js": "/pufi/static/js/2.d1a35bae.chunk.js",
     "static/js/2.d1a35bae.chunk.js.map": "/pufi/static/js/2.d1a35bae.chunk.js.map",
     "index.html": "/pufi/index.html",
-    "static/css/main.15a9cc2e.chunk.css.map": "/pufi/static/css/main.15a9cc2e.chunk.css.map",
+    "static/css/main.e5c32158.chunk.css.map": "/pufi/static/css/main.e5c32158.chunk.css.map",
     "static/js/2.d1a35bae.chunk.js.LICENSE.txt": "/pufi/static/js/2.d1a35bae.chunk.js.LICENSE.txt",
     "static/media/Holidays.21f6f6a3.jpg": "/pufi/static/media/Holidays.21f6f6a3.jpg",
     "static/media/cart.e5e61327.png": "/pufi/static/media/cart.e5e61327.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.8cff59e2.js",
     "static/js/2.d1a35bae.chunk.js",
-    "static/css/main.15a9cc2e.chunk.css",
-    "static/js/main.0c30c7c3.chunk.js"
+    "static/css/main.e5c32158.chunk.css",
+    "static/js/main.88fd5165.chunk.js"
   ]
 }
