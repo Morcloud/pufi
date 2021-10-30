@@ -1,6 +1,8 @@
 .header {
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
     &__logo {
         margin: 0;
         margin-inline-start: 1rem;

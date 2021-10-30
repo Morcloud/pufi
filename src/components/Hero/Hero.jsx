@@ -1,5 +1,6 @@
 import React from "react";
 import { Header } from "../Header/Header";
+import test from "../../images/test-cover.jpg";
 // import hero from "./hero.jpg";
 import "./hero.scss";
 
@@ -15,7 +16,7 @@ export const Hero = () => {
                 <button className='hero__button'>shop</button>
                 <div className='hero__slides'>
                     <div className='hero__slides--cover'>
-                        <img src='' alt='' />
+                        <img src={test} alt='images test' />
                     </div>
                     <div className='hero__slides--cover'>
                         <img src='' alt='' />
