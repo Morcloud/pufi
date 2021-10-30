@@ -40,6 +40,8 @@
                 transition: 300ms;
             }
         }
+        &::before .is-valid {
+        }
     }
 }
 
@@ -60,6 +62,7 @@
         content: "Email válido";
         display: block;
         inline-size: auto;
+        min-inline-size: 10rem;
         color: rgb(21, 138, 21);
         font-size: 1em;
         position: absolute;

@@ -36,6 +36,8 @@ export const Product = ({
                     <i className='fas fa-angle-right'></i>
                     <span>{moreInfo}</span>
                 </p>
+                <div className='product__details--arrow-left'></div>
+                <div className='product__details--arrow-right'></div>
             </div>
         </article>
     );
