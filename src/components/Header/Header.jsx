@@ -14,19 +14,19 @@ export const Header = () => {
             </figure>
             <nav className='header__nav'>
                 <ul className='nav__list'>
-                    <li className='nav__list-item'>
+                    <li className='nav__list--item'>
                         <img src={iconPuff} alt='' />
                         <a href='/'>pufi puff</a>
                     </li>
-                    <li className='nav__list-item'>
+                    <li className='nav__list--item'>
                         <img src={iconUmbrella} alt='' />
                         <a href='/'>pufi rain</a>
                     </li>
-                    <li className='nav__list-item'>
+                    <li className='nav__list--item'>
                         <img src={iconCart} alt='' />
                         <a href='/'>pufi cart</a>
                     </li>
-                    <li className='nav__list-item'>
+                    <li className='nav__list--item'>
                         <img src={iconNap} alt='' />
                         <a href='/'>pufi nap</a>
                     </li>

@@ -14,7 +14,6 @@ export const Product = ({
                 className='product__cover'
                 style={{ backgroundImage: `url(${cover})` }}
             >
-                {/* <img src={cover} alt='cover' /> */}
                 {buttonToggle && (
                     <div className='product__cover--button'>shop</div>
                 )}

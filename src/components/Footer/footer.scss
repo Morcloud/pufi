@@ -1,6 +1,6 @@
 .footer {
     margin-block-start: 3rem;
-    padding: 2vw;
+    padding: 2.5vw;
     display: flex;
     gap: 0.5rem;
     justify-content: space-between;
@@ -32,6 +32,7 @@
             color: #000;
             text-decoration: none;
             text-transform: uppercase;
+            font-family: "Nunito", sans-serif;
             font-size: 1.5vmin;
         }
         &:nth-of-type(2)::after {
@@ -52,8 +53,10 @@
         position: relative;
         box-sizing: border-box;
         &--title {
+            margin-block-start: 0;
             text-transform: uppercase;
             font-size: 1.5vmin;
+            font-family: "Nunito", sans-serif;
         }
         &::after {
             content: "";
@@ -91,11 +94,13 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         align-items: flex-start;
-        gap: 0.5rem;
+        gap: 0.8rem;
         position: relative;
         &--text {
+            margin-block-start: 0;
             text-transform: uppercase;
             font-size: 1.5vmin;
+            font-family: "Nunito", sans-serif;
         }
         &::after {
             content: "";

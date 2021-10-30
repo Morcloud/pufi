@@ -26,6 +26,15 @@
             padding: 1rem;
             position: relative;
             cursor: pointer;
+            &:nth-of-type(1):hover {
+                text-decoration: underline;
+                & .fas {
+                    transform: translateY(5px);
+                }
+            }
+            &:nth-of-type(2):hover {
+                text-decoration: underline;
+            }
             &:nth-of-type(2)::after {
                 content: "";
                 background: white;
@@ -43,7 +52,7 @@
     padding: 0;
     display: flex;
     list-style: none;
-    &-item {
+    &--item {
         padding: 1rem;
         display: flex;
         flex-direction: column;
@@ -56,6 +65,7 @@
         }
         a {
             color: #fff;
+            font-family: "Nunito", sans-serif;
             font-size: 2.5vmin;
             text-decoration: none;
             text-transform: uppercase;
