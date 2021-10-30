@@ -1,6 +1,8 @@
 import React from "react";
 import { Header } from "../Header/Header";
-import test from "../../images/test-cover.jpg";
+import testCover1 from "../../images/test-cover.jpg";
+import testCover2 from "../../images/test-cover2.jpg";
+import testCover3 from "../../images/test-cover3.jpg";
 // import hero from "./hero.jpg";
 import "./hero.scss";
 
@@ -15,29 +17,29 @@ export const Hero = () => {
                 </h1>
                 <button className='hero__button'>shop</button>
                 <div className='hero__slides'>
-                    <div className='hero__slides--cover'>
-                        <img src={test} alt='images test' />
+                    <div id='slider1' className='hero__slides--cover'>
+                        <img src={testCover1} alt='Cover' />
                     </div>
-                    <div className='hero__slides--cover'>
-                        <img src='' alt='' />
+                    <div id='slider2' className='hero__slides--cover'>
+                        <img src={testCover2} alt='Cover' />
                     </div>
-                    <div className='hero__slides--cover'>
-                        <img src='' alt='' />
+                    <div id='slider3' className='hero__slides--cover'>
+                        <img src={testCover3} alt='Cover' />
                     </div>
                 </div>
                 <div className='hero__slides-buttons'>
-                    <input
-                        type='radio'
+                    <a
+                        href='#slider1'
                         className='hero__slides-buttons--button'
-                    />
-                    <input
-                        type='radio'
+                    ></a>
+                    <a
+                        href='#slider2'
                         className='hero__slides-buttons--button'
-                    />
-                    <input
-                        type='radio'
+                    ></a>
+                    <a
+                        href='#slider3'
                         className='hero__slides-buttons--button'
-                    />
+                    ></a>
                 </div>
             </section>
         </>
