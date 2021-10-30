@@ -33,6 +33,8 @@
             border: 1px solid #ccc;
             position: relative;
             background: transparent;
+            outline: none;
+            transition: 400ms;
             &:focus ~ .focus-bg {
                 inline-size: 100%;
                 transition: 300ms;
@@ -53,15 +55,16 @@
 }
 
 .is-valid {
-    border: 2px solid rgb(21, 138, 21);
-    &::after {
+    border: 4px solid rgb(21, 138, 21);
+    & ~ .focus-bg::after {
+        content: "Email válido";
         display: block;
-        content: "Email válido :D";
-        color: red;
-        font-size: 2em;
-        border: 1px solid red;
+        inline-size: auto;
+        color: rgb(21, 138, 21);
+        font-size: 1em;
         position: absolute;
-        z-index: 2;
+        bottom: -1.5em;
+        left: 0;
     }
 }
 
