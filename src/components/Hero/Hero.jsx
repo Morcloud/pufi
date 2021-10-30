@@ -14,9 +14,29 @@ export const Hero = () => {
                 </h1>
                 <button className='hero__button'>shop</button>
                 <div className='hero__slides'>
-                    <input type='radio' className='hero__slides--element' />
-                    <input type='radio' className='hero__slides--element' />
-                    <input type='radio' className='hero__slides--element' />
+                    <div className='hero__slides--cover'>
+                        <img src='' alt='' />
+                    </div>
+                    <div className='hero__slides--cover'>
+                        <img src='' alt='' />
+                    </div>
+                    <div className='hero__slides--cover'>
+                        <img src='' alt='' />
+                    </div>
+                </div>
+                <div className='hero__slides-buttons'>
+                    <input
+                        type='radio'
+                        className='hero__slides-buttons--button'
+                    />
+                    <input
+                        type='radio'
+                        className='hero__slides-buttons--button'
+                    />
+                    <input
+                        type='radio'
+                        className='hero__slides-buttons--button'
+                    />
                 </div>
             </section>
         </>

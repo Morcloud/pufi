@@ -19,7 +19,10 @@ export const useFetch = (url, options = {}) => {
         setState({ loading: true, data: null, error: null });
         console.log(url, options);
         fetch(url, options)
-            .then((resp) => resp.json())
+            .then((resp) => {
+                console.log(resp);
+                return resp.json();
+            })
             .then((data) => {
                 if (isMounted.current) {
                     setState({
