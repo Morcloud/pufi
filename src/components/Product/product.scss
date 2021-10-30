@@ -14,6 +14,7 @@
         background-size: cover;
         position: relative;
         z-index: 1;
+        overflow: hidden;
         &--button {
             padding-inline: 3rem;
             padding-block: 1rem;

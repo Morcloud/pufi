@@ -36,7 +36,7 @@ export const Social = () => {
                         <SocialImage key={node.id} image={node.display_url} />
                     ))
                 ) : (
-                    <div>
+                    <div className='test'>
                         <SocialImage image={imageTest} />
                         <SocialImage image={imageTest} />
                         <SocialImage image={imageTest} />

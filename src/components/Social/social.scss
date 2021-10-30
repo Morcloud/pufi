@@ -19,7 +19,8 @@
             font-size: 6vmin;
         }
     }
-    &__grid {
+    &__grid,
+    &__grid .test {
         max-inline-size: 38rem;
         display: flex;
         justify-content: center;
